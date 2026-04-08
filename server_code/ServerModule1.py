@@ -58,8 +58,8 @@ def add_anmeldung(mid, kid):
   import datetime
   heute = datetime.date.today().strftime("%d.%m.%Y")
 
-  query = '''
-    INSERT INTO Anmeldung (KID, MID, Anmeldedatum)
+  query = f'''
+    INSERT INTO Anmeldung ({kid}, {mid}, {heute})
     VALUES (?, ?, ?)
     '''
 
