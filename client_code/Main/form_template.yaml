@@ -1,0 +1,23 @@
+components:
+- layout_properties: {slot: nav-right}
+  name: navbar_links
+  properties: {}
+  type: FlowPanel
+- components:
+  - name: RP_All
+    properties: {item_template: Main.RowTemplate1}
+    type: RepeatingPanel
+  layout_properties: {slot: default}
+  name: DG_ALL
+  properties:
+    columns:
+    - {data_key: Bezeichnung, id: JKSDUP, title: Name}
+    - {data_key: Wochentag, id: VJQQOR, title: Wochentag}
+    - {data_key: Uhrzeit, id: OJLQEN, title: Uhrzeit}
+    - {data_key: Trainer, id: PPELZX, title: Trainer}
+    - {data_key: Teilnehmer, id: TCZING, title: Teilnehmer}
+  type: DataGrid
+container:
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
+is_package: true

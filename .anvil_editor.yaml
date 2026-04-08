@@ -3,7 +3,11 @@ unique_ids:
     standard-page.html: TKN5KZZ3WI3SSQNL7XX3SEQTPVHEBZQ3
     theme.css: U7WPXZQCJF27ZSJKMBIBBQ7JDUCUV26F
   forms:
-    Form1: LRGIW4QE3QEFOIVA5ARBAOFL6UUNT2U5
+    AnmeldeSeite: '1775638965616409020386508.36084'
+    AnmeldeSeite.RowTemplate1_copy: '1775640615922838388152279.8926'
+    Main: LRGIW4QE3QEFOIVA5ARBAOFL6UUNT2U5
+    Main.RowTemplate1: '1775638126455267695990874.90604'
   modules: {}
   scripts: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1775637398642318118366842.712'
